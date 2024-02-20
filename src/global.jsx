@@ -1,0 +1,7 @@
+export const M_COLOR = '#ab49cc'
+export const C_COLOR1 = '#4ca1f5'
+export const C_COLOR2 = '#1e91ed'
+export const D_COLOR1 = '#7f00b2'
+export const D_COLOR2 = '#8e22bb'
+export const C_TEXT_COLOR = '#fff'
+export const D_TEXT_COLOR = 'black'

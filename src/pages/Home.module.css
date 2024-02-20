@@ -1,0 +1,17 @@
+.texth2{
+    color: #7f00b2;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texth3{
+    color: darkgray;
+    margin-top: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+

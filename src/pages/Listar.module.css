@@ -1,0 +1,63 @@
+.texth2{
+    color: #7f00b2;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabela {
+    width: 900px;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+.celtabhead {
+    font-weight: bold;
+    padding-bottom: 0.75em;
+    font-size: 1.5em;
+    color: #8e22bb;
+    text-align: center;
+    border: 0.15em;
+    border-collapse: collapse;
+}
+
+.celtabbody {
+    padding: 0.2em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    color:#8e22bb;
+    text-align: center;
+    border: 0.15em ;
+    border-collapse: collapse;
+}
+
+.celtabicon {
+    padding: 0.2em;
+    font-size: 1em;
+    text-align: center;
+    border: 0.15em ;
+    border-collapse: collapse;
+}
+
+.iconedit {
+    color: darkcyan;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.icondelete {
+    color: red;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.iconedit:hover {
+    color: #ffbb33;
+}
+
+.icondelete:hover {
+    color: #ffbb33;
+}

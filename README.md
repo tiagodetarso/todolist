@@ -6,6 +6,10 @@ Gerenciador de Tarefas que permite criar tarefas, excluí-las e editá-las.
 Além disso persiste a lista de tarefas em arquivo .json
 Também pode ler dados de arquivo .json para a aplicação
 
+# Acessar a aplicação na web
+
+- acesso o endereço: https://todolist-to5m.onrender.com
+
 # Para rodar esta aplicação localmente
 
 - Instale o NodeJS (junto com o Node deve ser instalado o npm (node package manager))

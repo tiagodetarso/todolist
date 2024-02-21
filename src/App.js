@@ -5,6 +5,7 @@ import { Home } from './pages/Home'
 import { NavBar } from './layout/NavBar'
 import { Criar } from './pages/Criar'
 import { Listar } from './pages/Listar'
+import { Editar } from './pages/Editar'
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
           <Route path='/inicio' element={<Home />} />
           <Route path='/criar' element={<Criar />} />
           <Route path='/listar' element={<Listar />} />
+          <Route path='/editar' element={<Editar />} />
 
           <Route path='*' element={<Navigate to='/inicio' />} />
         </Routes>

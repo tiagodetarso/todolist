@@ -12,8 +12,8 @@ export const listaTarefasSlice = createSlice({
         addItem: (state, action) => {
             state.listaTarefasItems.push(action.payload)
         },
-        excludeItem: (state, action) => {
-                state.listaTarefasItems.splice(action.payload, 1)
+        excludeItem: (state) => {
+                state.listaTarefasItems = []
         },
     },
 })

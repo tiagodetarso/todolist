@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 import { BsPencilFill } from "react-icons/bs"
 import { TiDelete } from "react-icons/ti"
 
@@ -7,16 +8,17 @@ import { Container } from "../layout/Container"
 import { Button } from '../formItems/button'
 
 import { setItem } from '../slices/listaTarefasSlice'
+import { setObject } from '../slices/editSlice'
 import styles from './Listar.module.css'
 
 export const Listar = () => {
 
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const [ listaTarefas, setListaTarefas ] = useState(useSelector((state) => state.listaTarefas.listaTarefasItems))
     
     useEffect(() => {
         dispatch(setItem(listaTarefas))
-        console.log(listaTarefas)
     }, [listaTarefas, dispatch])
 
     const handleDownload = () => {
@@ -44,7 +46,8 @@ export const Listar = () => {
     }
 
     const irEdicaoTarefa = (task) => {
-        console.log(task)
+        dispatch(setObject(task))
+        navigate('/editar')
     }
 
     return (
